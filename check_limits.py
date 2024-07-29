@@ -1,5 +1,5 @@
 def battery_is_ok(temperature):
-Check_temp(temperature)
+ Check_temp(temperature)
 
 def Check_temp(temperature):
   if temperature < 0 or temperature > 45:
