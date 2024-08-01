@@ -9,7 +9,7 @@ def Checking_temperature(temperature):
     print('Temperature is out of range!')
     return False
   else:
-    Checking_temp(temperature)
+    Checking_temperature(temperature)
 def high_low_temperature(temperature):
   if temperature >0:
     print('Temperature is High!')
