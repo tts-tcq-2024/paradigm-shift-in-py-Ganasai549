@@ -3,14 +3,14 @@ def battery_is_ok(temperature, soc, ch_rate):
   Checking_soc(soc)
   Checking_Chargerate(ch_rate)
   
-  def Checking_temperature(temperature):
+def Checking_temperature(temperature):
   if temperature < 0 or temperature > 45:
     high_low_temperature(temperature)
     print('Temperature is out of range!')
     return False
   else:
     Checking_temp(temperature)
- def high_low_temperature(temperature):
+def high_low_temperature(temperature):
   if temp >0:
     print('Temperature is High!')
   else:
@@ -26,8 +26,7 @@ def Warning_Checking_temperature(temperature):
     print('State of Charge is Low Warning!')
   else:
     print('State of Charge is High Warning!')
-
-  def Checking_soc(soc):
+def Checking_soc(soc):
   if soc <=20 or soc > 80:
     high_low_soc(soc)
   else:
