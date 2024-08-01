@@ -11,18 +11,18 @@ def Checking_temperature(temperature):
   else:
     Checking_temp(temperature)
 def high_low_temperature(temperature):
-  if temp >0:
+  if temperature >0:
     print('Temperature is High!')
   else:
     print('Temperature is Low.')
 
 def Checking_temperature(temperature):
-  if temp <=2.25 or temp >42.75:
+  if temperature <=2.25 or temperature >42.75:
     Warning_Checking_temperature(temperature)
   else:
     print('Temperature is NORMAL.')
 def Warning_Checking_temperature(temperature):
-  if temp <=2.25:
+  if temperature <=2.25:
     print('State of Charge is Low Warning!')
   else:
     print('State of Charge is High Warning!')
@@ -47,13 +47,13 @@ def WarningCheck_soc(soc):
   else:
     print('State of Charge is High Warning!')
 def Checking_Chargerate(ch_rate):
-  if ch > 0.8:
+  if ch_rate > 0.8:
     print('Charge rate is out of range!')
   else:
     Warning_charge_rate(ch_rate)
 
 def Warning_charge_rate(ch_rate):
-  if ch> 0.6:
+  if ch_rate> 0.6:
     print('Charge rate is High Warning!')
   else:
     print('Charge rate is Normal.')
