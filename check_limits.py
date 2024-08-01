@@ -1,5 +1,5 @@
 def battery_is_ok(temperature, soc, ch_rate):
-  Checking_temp(temperature)
+  Checking_temperature(temperature)
   Checking_soc(soc)
   Checking_Chargerate(ch_rate)
   
